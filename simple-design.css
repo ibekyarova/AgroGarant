@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+	word-wrap: break-word;
+	padding: 0;
+	margin: 0;
+	cursor: default;
+}
+body{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 15px;
+	max-width: 100%;
+	color: white;
+
+}
+header{
+	background: linear-gradient(rgba(40, 41, 45, 0.85), rgba(12, 12, 12, 0.85)), url('img/header-img.jpg') no-repeat center;
+	background-size: cover;
+	max-width: 100%;
+
+}
+.site-nav{
+	width: 100%;
+	display: inline-block;
+	background-color: rgba(72, 80, 77, 0.52); 
+	height: 80px;
+}
+.site-nav img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 12px;
+}
+.site-nav ul{
+	text-align: right;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+.site-nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px; 
+
+}
+
+.site-nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-align: right;
+	cursor: pointer;
+}
+.about{
+	display: inline-block;
+	padding: 1rem;
+	text-decoration: none;
+	color: white;	
+}
+header h1{
+	text-align: center;
+	padding: 50px;
+	font-size: 50px;
+	margin-top: 100px;
+	text-shadow: 1px 1px 2px red;
+}
+header p{
+	text-align: center;
+	font-size: 30px;
+	padding: 50px;
+	text-shadow: 1px 1px 2px red;
+}
+header p a{
+	color: white;
+	display: inline-block;
+
+}
+header p a i{
+	cursor: pointer;
+}
+main{
+	width: 100%;
+}
+#section{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+}
+.project{
+	width: 100%;
+	margin: 0 auto;
+	cursor: pointer;
+	background-image: url('img/project-image.jpg');
+	background-size: cover;
+
+}
+.presentation{
+	width: 300px;
+	margin: 0 auto;
+	padding: 40px;
+	line-height: 25px;
+	margin-top: 40px; 
+	margin-right: 20px;
+	background-color: rgba(72, 80, 77, 0.52); 
+	cursor: pointer;
+}
+
+.presentation h1{
+	margin-top: 20px;
+	font-size: 1.7rem;
+	text-shadow: 1px 1px 2px #266f25;
+}
+.presentation i{
+	font-size: 1.7rem;
+	text-shadow: 1px 1px 2px #266f25;
+}
+.presentation p{
+	font-size: 1.2rem;
+	cursor: pointer;
+	text-shadow: 1px 1px 2px #266f25;
+}
+.why-us{
+	width: 80%;
+	margin: 0 auto;
+	padding: 100px;
+	color: black;
+	text-shadow: 0px 0px 1px #42CE38;
+	
+}
+.why-us h1{
+	font-size: 2.0rem;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.why-us hr{
+	width: 500px;
+	margin: 0 auto;
+}
+.why-us section{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.why-us p{
+	letter-spacing: 2px;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: justify;
+
+}
+.why-us .fa-chart-line, .fa-thumbs-up, .fa-balance-scale{
+	font-size: 2.7rem;
+	color: white;
+	background: green;
+	padding: 20px;	
+	border-radius: 50%;
+	margin-bottom: 30px;
+	font
+}.left h1{
+	text-align: left;
+}
+.right h1{
+	text-align: left;
+}
+.center{
+	text-align: center;
+}
+.center h1{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.right h1{
+	text-align: right;
+}
+footer{
+	background-color: rgba(72, 80, 77, 0.52);
+	width: 100%;
+	text-align: center;
+	vertical-align: top;
+}
+footer section{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+}
+footer .about-us-footer{
+	margin-top: 20px;
+	text-align: left;
+}
+footer .about-us-footer p{
+	padding: 10px;
+	margin-left: 30px;
+}
+footer .about-us-footer button{
+    width: 120px;
+    background: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0px 37px 9px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 14px;
+}
+footer .about-us-footer button:hover{
+	background: green;
+	color: white;
+}
+footer .footer-consulting{
+	text-align: left;
+	margin-top: 20px;
+}
+footer .footer-consulting p{
+	padding: 10px;
+	margin-left: 30px;
+}
+footer .footer-consulting .about-us::before{
+	font-family: "FontAwesome";
+	content: "\f3c5";
+	margin-right: 10px;
+	padding: 10px;
+}
+footer .footer-consulting .work-time::before{
+	font-family: "FontAwesome";
+	content: "\f017";
+	margin-right: 10px;
+	padding: 10px;
+}
+footer .footer-consulting .phone::before{
+	font-family: "FontAwesome";
+	content: "\f3cd";
+	margin-right: 10px;
+	padding: 10px;
+}
+footer .footer-consulting .mail::before{
+	font-family: "FontAwesome";
+	content: "\f0e0";
+	margin-right: 10px;
+	padding: 10px;
+}
+footer .footer-links{
+	text-align: left;
+	width: 200px;
+	margin-top: 20px;
+}
+footer .footer-links a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	margin-right: 30px;
+}
+footer .footer-links ul li{
+	margin-left: 40px;
+	padding: 10px;
+	list-style: none;
+	cursor: pointer;
+}
+footer .footer-links ul li a:hover{
+	color: green;
+	cursor: pointer;
+}
+footer .footer-social{
+	text-align: left;
+	margin-top: 20px;
+}
+footer .footer-social a{
+	color: white;
+	font-size: 40px;
+}
+footer .footer-social a i:hover{
+	color: green;
+	cursor: pointer;
+}
